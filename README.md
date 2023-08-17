@@ -1,1 +1,3 @@
-# This repository includes different sorting algorithms. The purpose is to show different approaches. 
+# Sorting Algorithms
+
+This repository includes different sorting algorithms. The purpose is to show different approaches. 
