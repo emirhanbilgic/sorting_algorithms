@@ -5,10 +5,11 @@ This repository includes different sorting algorithms. The purpose is to show di
 ## Algorithms Included
 
 1. **Bubble Sort** - [`bubble_sort.py`](./bubble_sort.py)
+
 Basic Idea: Continuously swap adjacent elements if they are in the wrong order until the list is sorted.
 Details: Start from the beginning of the list, and for each pair of adjacent elements, if they are in the wrong order, swap them. This process is repeated for the list until no more swaps are required. During each pass through the list, the largest element "bubbles up" to its correct position.
 
-2. **Insertion Sort** - [`insertion_sort.py`](./insertion_sort.py)
+3. **Insertion Sort** - [`insertion_sort.py`](./insertion_sort.py)
 
 Basic Idea: Build a sorted array (or list) one element at a time by comparing each element with the current largest element and placing it in the appropriate position.
 Details: Starting from the second element, compare it with the previous ones. If it's smaller than its predecessor, we compare it with the elements before. Repeat until we reach a number smaller or until we reach the start of the list. Then, insert the element at this position. Continue for all elements.
