@@ -13,6 +13,7 @@ Details: Start from the beginning of the list, and for each pair of adjacent ele
 3. **Insertion Sort** - [`insertion_sort.py`](./insertion_sort.py)
 
 Basic Idea: Build a sorted array (or list) one element at a time by comparing each element with the current largest element and placing it in the appropriate position.
+
 Details: Starting from the second element, compare it with the previous ones. If it's smaller than its predecessor, we compare it with the elements before. Repeat until we reach a number smaller or until we reach the start of the list. Then, insert the element at this position. Continue for all elements.
 
 3. **Merge Sort** - [`merge_sort.py`](./merge_sort.py)
