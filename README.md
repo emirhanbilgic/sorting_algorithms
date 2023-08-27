@@ -10,7 +10,7 @@ Basic Idea: Continuously swap adjacent elements if they are in the wrong order u
 
 Details: Start from the beginning of the list, and for each pair of adjacent elements, if they are in the wrong order, swap them. This process is repeated for the list until no more swaps are required. During each pass through the list, the largest element "bubbles up" to its correct position.
 
-3. **Insertion Sort** - [`insertion_sort.py`](./insertion_sort.py)
+2. **Insertion Sort** - [`insertion_sort.py`](./insertion_sort.py)
 
 Basic Idea: Build a sorted array (or list) one element at a time by comparing each element with the current largest element and placing it in the appropriate position.
 
@@ -22,7 +22,7 @@ Basic Idea: Divide the list into two halves, sort them, and then merge them.
 
 Details: This is a recursive approach. First, the list is split into halves until each sublist consists of a single element. Then, these smaller sublists are merged back together in such a way that they get sorted. The "merge" operation ensures the resultant list is sorted.
 
-6. **Quick Sort** - [`quick_sort.py`](./quick_sort.py)
+4. **Quick Sort** - [`quick_sort.py`](./quick_sort.py)
 
 Basic Idea: Select a 'pivot' element and partition the list such that all elements less than the pivot are to its left, and all elements greater than the pivot are to its right. Then, recursively sort the two partitions.
 
@@ -40,3 +40,6 @@ Each algorithm is implemented in a standalone Python script. To execute any of t
 
 ```bash
 python <script-name>.py
+
+## To bo added:
+- 
