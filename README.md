@@ -40,6 +40,10 @@ Each algorithm is implemented in a standalone Python script. To execute any of t
 
 ```bash
 python <script-name>.py
+```
 
-## To bo added:
-- 
+## To be added:
+
+- Heap Sort
+  
+- Radix Sort
